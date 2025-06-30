@@ -17,7 +17,8 @@ const LocationHeader = ({ location, caption, cardId }: LocationHeaderProps) => {
   return (
     <div className="relative">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-600 to-orange-500 opacity-90" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-blue-300 to-white opacity-90" />
+
       
       {/* Content */}
       <div className="relative p-8 text-white">

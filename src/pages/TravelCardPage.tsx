@@ -40,6 +40,7 @@ const TravelCardPage: React.FC = () => {
         );
         const data = response.data;
 
+
         console.log(data);
 
         const transformed: TravelCardProps = {
@@ -84,7 +85,7 @@ const TravelCardPage: React.FC = () => {
   if (!cardData) return <p className="text-center mt-10 text-red-500">Travel card not found.</p>;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 via-white to-blue-500">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-blue-50">
       <div className="container mx-auto px-4 py-8">
         <TravelCard data={cardData} />
       </div>
