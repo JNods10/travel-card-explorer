@@ -47,7 +47,7 @@ const CollapsibleSection = ({
       </Button>
       
       <div className={`transition-all duration-300 ease-in-out overflow-hidden ${
-        isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        isOpen ? 'opacity-100 max-h-[calc(100vh-20rem)] overflow-y-auto' : 'max-h-0 opacity-0'
       }`}>
         <div className="p-4 pt-0 border-t border-gray-100">
           {children}
