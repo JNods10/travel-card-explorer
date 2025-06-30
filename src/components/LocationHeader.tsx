@@ -21,24 +21,24 @@ const LocationHeader = ({ location, caption, cardId }: LocationHeaderProps) => {
 
       
       {/* Content */}
-      <div className="relative p-8 text-white">
+      <div className="relative p-8 text-black">
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center space-x-2">
-            <MapPin className="w-6 h-6 text-white/90" />
+            <MapPin className="w-6 h-6 text-black/90" />
             <h1 className="text-2xl font-bold">{location}</h1>
           </div>
           <Button
             onClick={handleViewOnMap}
             variant="secondary"
             size="sm"
-            className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
+            className="bg-black/20 hover:bg-black/30 text-black border-black/30 backdrop-blur-sm"
           >
             <MapPin className="w-4 h-4 mr-2" />
             View on Map
           </Button>
         </div>
         
-        <p className="text-white/90 text-lg leading-relaxed">
+        <p className="text-black/90 text-lg leading-relaxed">
           {caption}
         </p>
       </div>
