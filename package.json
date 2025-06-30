@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage" : "https://https://jnods10.github.io/travel-card-explorer",
+  "homepage": "https://jnods10.github.io/travel-card-explorer",
   "version": "0.0.0",
   "type": "module",
 "scripts": {

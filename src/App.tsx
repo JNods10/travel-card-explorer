@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/travel-card-explorer">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/card/:token" element={<TravelCardPage />} />
